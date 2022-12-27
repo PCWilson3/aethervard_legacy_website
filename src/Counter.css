@@ -1,0 +1,29 @@
+.counterCountainer {
+    text-align: center;
+    height: fit-content;
+  }
+  
+  .buttonContainer {
+    display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .counter {
+    display: inline-flex;
+    
+    width: fit-content;
+    margin: 20px;
+    height: fit-content
+  }
+  
+  .counterValue {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .counterButton{
+    height: fit-content;
+    vertical-align: middle;
+  }
+  
