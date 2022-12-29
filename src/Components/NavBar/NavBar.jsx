@@ -11,8 +11,6 @@ export default function NavBar() {
                 <CustomLink to='/events'>Events</CustomLink>
             </ul>
         </nav>
-       
-       
     );
 }
 

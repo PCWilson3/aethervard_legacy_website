@@ -1,5 +1,4 @@
 import './App.css';
-import Counter from './Counter';
 import NavBar from './Components/NavBar/NavBar'
 import Home from './Pages/Home'
 import Books from './Pages/Books'
@@ -39,6 +38,7 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
+      
       <div className="container">
         <Routes>
           <Route path="/" element={<Home/>}/>
