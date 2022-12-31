@@ -20,9 +20,23 @@
 .centerCol ul p {
     text-align: left;
 }
-  
-.rightCol {
-  
+
+.bookSynopsis p {
+    white-space: pre-line;
+}
+
+.text {
+    display: inline;
+    width: 100%;
+}
+
+.read-or-hide {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.bookInfo h3 {
+    
 }
 
 .bookInfo ul {
@@ -32,4 +46,13 @@
     display: flex;
     flex-direction: row;
     gap: 1rem;
+}
+
+.attribute div {
+    background-color: tan;
+    padding: 10px;
+}
+
+.attribute div p {
+    text-align: center;
 }
