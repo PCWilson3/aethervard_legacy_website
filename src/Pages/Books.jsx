@@ -8,7 +8,7 @@ export default function Books() {
         <>
             <h1>Books</h1>
             {
-                myBooks && myBooks.map(({title, rating, synopsis, attributes}) => (
+                myBooks && myBooks.map(({book_image, title, rating, synopsis, attributes}) => (
                     <BookComponent
                         image={require("../Images/book_1_front.png")}
                         bookTitle={title} 
