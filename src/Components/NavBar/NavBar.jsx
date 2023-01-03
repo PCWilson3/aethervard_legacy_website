@@ -3,8 +3,8 @@ import './NavBar.css'
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 export default function NavBar() {
     return (
-        <nav className="nav">
-            <Link to='/' className='site-title'>Parker C. Wilson</Link>
+        <nav id="nav">
+            <Link to='/' id='site-title'>Parker C. Wilson</Link>
             <ul>
                 <CustomLink to='/books'>Books</CustomLink>
                 <CustomLink to='/about'>About</CustomLink>

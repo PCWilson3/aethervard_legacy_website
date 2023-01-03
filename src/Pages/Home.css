@@ -1,0 +1,29 @@
+.reviews-container {
+    width: 75%;
+    height: 300px;
+    margin: auto;
+    margin:4px, 4px;
+    padding:4px;
+    background-color: #333;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
+
+/*
+Cambria
+Lucida
+Segoe
+Verdana
+Impact
+
+
+*/
+
+.review {
+    text-align: left;
+    background-color: #FFF;
+    padding: 20px;
+    margin: 15px;
+}
+

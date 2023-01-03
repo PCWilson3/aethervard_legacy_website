@@ -1,27 +1,22 @@
-
 * {
     box-sizing: border-box;
 }
 
-#nav {
+#footer {
     background-color: #333;
-    color: white;
+    color: #FFF;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     gap: 2rem;
     padding: 0 1rem;
+    text-align: center;
+    width: 100%;
+    position: absolute;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: uppercase;
 }
 
-#site-title {
-    font-size: 2rem;
-    padding: 0;
-    margin: 0;
-}
-
-#nav ul {
+#footer ul {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -29,19 +24,25 @@
     gap: 1rem;
 }
 
-#nav a {
+#footer li {
     color: inherit;
     text-decoration: none;
     height: 100%;
     display: flex;
     align-items: center;
     padding: .25rem;
+    font-size: 1rem;
 }
 
-#nav li.active {
+#footer li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#footer li.active {
     background-color: #555;
 }
 
-#nav li:hover {
+#footer li:hover {
     background-color: #777;
 }
